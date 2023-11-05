@@ -1,0 +1,21 @@
+/**
+ * Synonyms Search Tool
+ *
+ * @category   Application_Backend
+ * @package    synonym-search-backend
+ * @author     Suman Barua
+ * @developer  Suman Barua <sumanbarua576@gmail.com>
+ */
+
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "ES2018",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "strict": true,
+    "esModuleInterop": true
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "dist"]
+}

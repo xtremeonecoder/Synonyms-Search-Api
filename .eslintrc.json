@@ -1,0 +1,30 @@
+/**
+ * Synonyms Search Tool
+ *
+ * @category   Application_Backend
+ * @package    synonym-search-backend
+ * @author     Suman Barua
+ * @developer  Suman Barua <sumanbarua576@gmail.com>
+ */
+
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "standard-with-typescript",
+    "eslint:recommended",
+    "plugin:prettier/recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "rules": {
+    // Add custom rules if needed
+  }
+}
